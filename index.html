@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp chat app</title>
+    <link rel="stylesheet" href="/style.css">
+
+    <style>
+        body {
+          background-image: url('abc.png');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: 100% 100%;
+        }
+        </style>
+</head>
+
+<body>
+    <section class="chat__section">
+        <div class="brand">
+            <img height="90" src="/ww.png" alt="">    
+            <h1>Real Chat</h1>
+        </div>
+        <hr />
+        <div class="message__area"></div>
+        <div>
+            <hr />
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
+
+
